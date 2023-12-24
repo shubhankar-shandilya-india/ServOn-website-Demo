@@ -1,0 +1,369 @@
+.clientsection,
+.heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    Height: 71.71px;
+    align-items: center;
+    font-size: var(--font-size-25xl);
+    font-family: var(--font-inter);
+    font-weight: 600;
+    padding: 30px;
+}
+
+.top-performer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.para {
+    font-size: var(--font-size-3xl);
+    line-height: 32px;
+    font-weight: 600;
+    color: var(--color-mediumturquoise);
+    text-align: center;
+    width: 802px;
+}
+
+.im {
+    Width: 180px;
+    Height: 170px;
+}
+
+.top-performer {
+    margin-top: 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 40px;
+    ;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    border: 1px solid skyblue;
+    padding: var(--padding-31xl) var(--padding-11xl) var(--padding-11xl);
+    gap: var(--gap-3xs);
+    font-family: var(--font-lato);
+    width: 529px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-details {
+    padding: 20px;
+}
+
+.starimage {
+    height: 25px;
+}
+
+h3 {
+    height: 20%;
+}
+
+.comastart {
+    position: absolute;
+    top: 31px;
+    width: 70px;
+    height: 70px;
+    left: 216px;
+}
+
+.comaend {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+}
+
+.sechead {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+    color: var(--color-teal);
+}
+
+.button {
+    border: 1px solid var(--color-mediumturquoise);
+    font-size: var(--font-size-3xl);
+    border-radius: 10px;
+    margin: 40px;
+    background-color: var(--color-mediumturquoise);
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.secfooter {
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    box-shadow: transparent 2px 2px 15px;
+    border: 1px solid var(--color-mediumturquoise);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 60px;
+    gap: 60px;
+    margin: 40px;
+    font-size: var(--font-size-25xl);
+    width: 60vw;
+
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    gap: 15px;
+
+}
+
+.f1 {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.f2 {
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.f3 {
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.f4 {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width:780px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.secfooter-container {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.ttextcontainer,
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.text-container img {
+    width: 55px;
+    height: 55px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ttextcontainer * {
+    margin-right: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer * {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    padding: 11px;
+    margin: 25px;
+    justify-content: space-between;
+
+}
+
+.headimg {
+    margin-left: 50px;
+}
+
+.banner {
+    background-image: url("./public/banna.png");
+    height: 845px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.banner img {
+    height: 221px;
+    width: 335px;
+    padding: 20px;
+}
+
+@media screen and (min-width:780px) {
+    .banner {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .banner img {
+
+        height: 500px;
+        width: 570px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.cardd {
+    /* width: 300px; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.cardd label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cardd input,
+.cardd textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    /* box-sizing: border-box; */
+}
+
+.cardd button {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-mediumturquoise);
+    border: 1px solid var(--color-mediumturquoise);
+    box-sizing: border-box;
+    width: 150px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+}
+
+.cardd h1 {
+    background: linear-gradient(92.43deg, rgb(75, 208, 196), rgb(209, 240, 63)) text;
+    color: transparent;
+}
+
+.buttoclass {
+    display: flex;
+    justify-content: center;
+}
+
+.cardd input,
+textarea {
+    border: solid 1px var(--color-mediumturquoise);
+    border-radius: 4px;
+}
+
+.navbar * {
+    padding: 2px;
+
+}
+.line {
+    color: var(--color-mediumturquoise);
+}
+.navbar {
+    font-family: var(--font-inter);
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    top: -31px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    border: 0.5px solid var(--color-mediumturquoise);
+    padding: 0px 24px;
+    font-size: var(--font-size-base);
+    height:40px
+
+}
+@media screen and (min-width:780px) {
+    .navbar {
+        font-family: var(--font-inter);
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        position: absolute;
+        align-items: center;
+        top: -31px;
+        border-radius: var(--br-3xs);
+        background-color: var(--color-white);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+        border: 0.5px solid var(--color-mediumturquoise);
+        padding: 0px 24px;
+        font-size: var(--font-size-base);
+    
+    }
+    
+    .navbar * {
+        padding: 5px;
+    
+    }
+    
+    
+}
